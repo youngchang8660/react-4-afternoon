@@ -6,7 +6,6 @@ export default class Home extends Component {
   render() {
     return (
       <div className="box">
-        <About />
         <Link to='/classlist/MATH1010'>
           <button className='btn'>Math 1010</button>
         </Link>
